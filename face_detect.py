@@ -89,6 +89,12 @@ def detect_faces(
     """
     import cv2  # imported lazily so the geometry helpers stay dependency-free
 
+    if not hasattr(cv2, "FaceDetectorYN"):
+        raise RuntimeError(
+            f"cv2.FaceDetectorYN is unavailable (OpenCV {cv2.__version__}); "
+            "YuNet needs OpenCV >= 4.5.4 — upgrade opencv-python-headless"
+        )
+
     path = model_path or bundled_model_path()
     if not os.path.isfile(path):
         raise FileNotFoundError(f"YuNet model not found at {path}")
