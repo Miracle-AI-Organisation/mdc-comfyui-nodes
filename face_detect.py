@@ -142,7 +142,7 @@ def pick_face(faces: List[Face], strategy: str = "confidence") -> Optional[Face]
 
 def crop_face(
     bgr_image,
-    crop_factor: float = 1.6,
+    crop_factor: float = 2.0,
     conf_threshold: float = 0.6,
     strategy: str = "confidence",
     model_path: Optional[str] = None,

@@ -35,7 +35,7 @@ class MdcFaceCrop:
                 "crop_factor": (
                     "FLOAT",
                     {
-                        "default": 1.6,
+                        "default": 2.0,
                         "min": 1.0,
                         "max": 5.0,
                         "step": 0.05,

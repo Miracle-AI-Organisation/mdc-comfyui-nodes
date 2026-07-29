@@ -38,7 +38,7 @@
         { "name": "info", "type": "STRING", "links": null, "slot_index": 2 }
       ],
       "properties": { "Node name for S&R": "MdcFaceCrop" },
-      "widgets_values": [1.6, 0.6, "confidence", "full_image"],
+      "widgets_values": [2.0, 0.6, "confidence", "full_image"],
       "title": "NEW — MDC Face Crop (YuNet, CPU)",
       "color": "#223",
       "bgcolor": "#335"

@@ -13,7 +13,7 @@ reference for `ReferenceLatent`.
 | Input | Default | Notes |
 |---|---|---|
 | `image` | — | Any `IMAGE`. |
-| `crop_factor` | `1.6` | Box expansion around the face. `1.0` = the bare face box. |
+| `crop_factor` | `2.0` | Box expansion around the face. `1.0` = the bare face box. |
 | `conf_threshold` | `0.6` | YuNet score threshold. |
 | `selection` | `confidence` | `confidence` or `largest`. Prefer the default — see below. |
 | `fallback` | `full_image` | No face found: pass the full image through, or `error` to fail loudly. |
