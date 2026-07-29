@@ -52,7 +52,7 @@ empty output that crashes the graph downstream.
 ### Install
 
 ```bash
-git clone https://github.com/elonmaxhimself/mdc-comfyui-nodes.git /workspace/ComfyUI/custom_nodes/mdc-comfyui-nodes
+git clone https://github.com/Miracle-AI-Organisation/mdc-comfyui-nodes.git /workspace/ComfyUI/custom_nodes/mdc-comfyui-nodes
 ```
 
 Restart ComfyUI. No pip installs and no model downloads: OpenCV is already a
